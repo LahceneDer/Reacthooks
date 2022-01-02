@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import UseContextComponent from './components/UseContextComponent';
 import UseEffectComponent from './components/UseEffectComponent';
 import UseStateComponent from './components/UseStateComponent';
 
@@ -13,6 +14,10 @@ function App() {
       <div className='useeffect'>
         <h2>useEffect</h2>
         <UseEffectComponent />
+      </div>
+      <div className='useeffect'>
+        <h2>useContext</h2>
+        <UseContextComponent />
       </div>
     </div>
   );
